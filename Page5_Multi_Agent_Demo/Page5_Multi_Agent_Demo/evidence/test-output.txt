@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: delegation contract includes all required fields
+ok 1 - delegation contract includes all required fields
+  ---
+  duration_ms: 2.594352
+  type: 'test'
+  ...
+# Subtest: final review depends on implementation and tests
+ok 2 - final review depends on implementation and tests
+  ---
+  duration_ms: 3.865217
+  type: 'test'
+  ...
+# Subtest: file conflict detector flags a file assigned to two roles
+ok 3 - file conflict detector flags a file assigned to two roles
+  ---
+  duration_ms: 0.381254
+  type: 'test'
+  ...
+# Subtest: review approves criteria with passing test evidence
+ok 4 - review approves criteria with passing test evidence
+  ---
+  duration_ms: 0.400674
+  type: 'test'
+  ...
+# Subtest: review rejects missing passing test evidence
+ok 5 - review rejects missing passing test evidence
+  ---
+  duration_ms: 0.400684
+  type: 'test'
+  ...
+# Subtest: coordinator blocks conflicting file ownership
+ok 6 - coordinator blocks conflicting file ownership
+  ---
+  duration_ms: 0.445441
+  type: 'test'
+  ...
+# Subtest: coordinator completes a well-scoped workflow
+ok 7 - coordinator completes a well-scoped workflow
+  ---
+  duration_ms: 0.485962
+  type: 'test'
+  ...
+# Subtest: All returns every task
+ok 8 - All returns every task
+  ---
+  duration_ms: 1.694094
+  type: 'test'
+  ...
+# Subtest: status matching is case-insensitive
+ok 9 - status matching is case-insensitive
+  ---
+  duration_ms: 0.320714
+  type: 'test'
+  ...
+# Subtest: unknown status returns no tasks
+ok 10 - unknown status returns no tasks
+  ---
+  duration_ms: 1.053188
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 203.900089

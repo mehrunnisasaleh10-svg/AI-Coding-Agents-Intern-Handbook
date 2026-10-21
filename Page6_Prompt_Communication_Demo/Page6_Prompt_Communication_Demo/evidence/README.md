@@ -1,0 +1,1 @@
+Run `npm.cmd test` locally and capture your own terminal screenshot if evidence is needed. The recorded test output in this folder is from the implementation environment; do not describe it as a laptop run.

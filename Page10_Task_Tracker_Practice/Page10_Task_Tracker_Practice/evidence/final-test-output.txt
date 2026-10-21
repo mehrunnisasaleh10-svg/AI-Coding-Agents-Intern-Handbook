@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: All returns every task and preserves the original task objects
+ok 1 - All returns every task and preserves the original task objects
+  ---
+  duration_ms: 0.982622
+  type: 'test'
+  ...
+# Subtest: Open returns only Open tasks
+ok 2 - Open returns only Open tasks
+  ---
+  duration_ms: 0.602378
+  type: 'test'
+  ...
+# Subtest: Done returns only Done tasks
+ok 3 - Done returns only Done tasks
+  ---
+  duration_ms: 0.113572
+  type: 'test'
+  ...
+# Subtest: negative case: Open tasks never appear in Done results
+ok 4 - negative case: Open tasks never appear in Done results
+  ---
+  duration_ms: 0.191289
+  type: 'test'
+  ...
+# Subtest: matching is case-insensitive for stored status values
+ok 5 - matching is case-insensitive for stored status values
+  ---
+  duration_ms: 0.18531
+  type: 'test'
+  ...
+# Subtest: unknown status returns no tasks
+ok 6 - unknown status returns no tasks
+  ---
+  duration_ms: 0.095074
+  type: 'test'
+  ...
+# Subtest: empty task list returns an empty list
+ok 7 - empty task list returns an empty list
+  ---
+  duration_ms: 0.25831
+  type: 'test'
+  ...
+# Subtest: malformed task status is safely ignored
+ok 8 - malformed task status is safely ignored
+  ---
+  duration_ms: 0.107321
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 80.664388

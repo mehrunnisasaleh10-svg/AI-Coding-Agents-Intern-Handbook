@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: flags prompts that reference passwords, tokens, or private customer data
+ok 1 - flags prompts that reference passwords, tokens, or private customer data
+  ---
+  duration_ms: 3.702571
+  type: 'test'
+  ...
+# Subtest: allows a prompt with no obvious sensitive-data terms
+ok 2 - allows a prompt with no obvious sensitive-data terms
+  ---
+  duration_ms: 0.78536
+  type: 'test'
+  ...
+# Subtest: treats repository text containing instructions as untrusted task data
+ok 3 - treats repository text containing instructions as untrusted task data
+  ---
+  duration_ms: 0.142384
+  type: 'test'
+  ...
+# Subtest: classifies tool output as untrusted task data
+ok 4 - classifies tool output as untrusted task data
+  ---
+  duration_ms: 0.092028
+  type: 'test'
+  ...
+# Subtest: continues permitted read-only inspection
+ok 5 - continues permitted read-only inspection
+  ---
+  duration_ms: 0.155353
+  type: 'test'
+  ...
+# Subtest: continues a bounded authorized local edit
+ok 6 - continues a bounded authorized local edit
+  ---
+  duration_ms: 0.51554
+  type: 'test'
+  ...
+# Subtest: pauses an unauthorized production write
+ok 7 - pauses an unauthorized production write
+  ---
+  duration_ms: 0.298158
+  type: 'test'
+  ...
+# Subtest: pauses when secrets or customer data are required
+ok 8 - pauses when secrets or customer data are required
+  ---
+  duration_ms: 0.11328
+  type: 'test'
+  ...
+# Subtest: pauses on unresolved security concerns or missing owner decisions
+ok 9 - pauses on unresolved security concerns or missing owner decisions
+  ---
+  duration_ms: 0.518329
+  type: 'test'
+  ...
+# Subtest: continues when authority, acceptance criteria, and checks are clear
+ok 10 - continues when authority, acceptance criteria, and checks are clear
+  ---
+  duration_ms: 0.325179
+  type: 'test'
+  ...
+# Subtest: does not claim efficiency limits were configured if the platform lacks controls
+ok 11 - does not claim efficiency limits were configured if the platform lacks controls
+  ---
+  duration_ms: 0.256836
+  type: 'test'
+  ...
+# Subtest: lists efficiency controls when platform support is confirmed
+ok 12 - lists efficiency controls when platform support is confirmed
+  ---
+  duration_ms: 0.446541
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 87.152445

@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: reproduces the bug: Done includes lowercase stored status
+ok 1 - reproduces the bug: Done includes lowercase stored status
+  ---
+  duration_ms: 1.092964
+  type: 'test'
+  ...
+# Subtest: Open returns only Open tasks regardless of stored letter case
+ok 2 - Open returns only Open tasks regardless of stored letter case
+  ---
+  duration_ms: 0.162849
+  type: 'test'
+  ...
+# Subtest: All returns every task
+ok 3 - All returns every task
+  ---
+  duration_ms: 0.147406
+  type: 'test'
+  ...
+# Subtest: unknown status returns no tasks
+ok 4 - unknown status returns no tasks
+  ---
+  duration_ms: 0.137812
+  type: 'test'
+  ...
+# Subtest: malformed task status does not crash filtering
+ok 5 - malformed task status does not crash filtering
+  ---
+  duration_ms: 0.111343
+  type: 'test'
+  ...
+# Subtest: empty task list remains empty
+ok 6 - empty task list remains empty
+  ---
+  duration_ms: 0.089832
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 68.104316

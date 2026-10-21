@@ -1,0 +1,1 @@
+Run `npm.cmd test` from the directory containing package.json and save your own terminal screenshot. The included test output is from the preparation environment; rerun locally before claiming laptop verification.

@@ -1,0 +1,9 @@
+{
+  "name": "page7-repository-workflow-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,37 @@
+Command: node --test
+Status: PASS
+
+TAP version 13
+# Subtest: All returns every task
+ok 1 - All returns every task
+  ---
+  duration_ms: 1.204405
+  type: 'test'
+  ...
+# Subtest: Open returns open tasks case-insensitively
+ok 2 - Open returns open tasks case-insensitively
+  ---
+  duration_ms: 0.865975
+  type: 'test'
+  ...
+# Subtest: Done excludes open tasks (negative case)
+ok 3 - Done excludes open tasks (negative case)
+  ---
+  duration_ms: 1.627812
+  type: 'test'
+  ...
+# Subtest: Unknown status returns an empty list
+ok 4 - Unknown status returns an empty list
+  ---
+  duration_ms: 0.261574
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 106.162877

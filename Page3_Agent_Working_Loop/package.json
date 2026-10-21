@@ -1,0 +1,8 @@
+{
+  "name": "page3-agent-working-loop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

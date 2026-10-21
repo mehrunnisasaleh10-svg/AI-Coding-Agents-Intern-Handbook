@@ -1,0 +1,1 @@
+After extracting the project, run `npm.cmd test` in the directory containing package.json. Save your own terminal screenshot if evidence is required. The included output file is generated from the project test run in the preparation environment; rerun locally before reporting laptop verification.

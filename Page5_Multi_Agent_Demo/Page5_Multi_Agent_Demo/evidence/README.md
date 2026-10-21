@@ -1,0 +1,1 @@
+The recorded test output is from the artifact-building environment. To verify on your own laptop, run `npm.cmd test` in the extracted project folder. Do not claim a laptop run passed unless you actually run it there.

@@ -1,0 +1,1 @@
+After extracting this project, run `npm.cmd test` from the folder containing package.json. Capture your own terminal screenshot if you need to attach evidence. Do not claim that the tests ran on your laptop until you run them there.

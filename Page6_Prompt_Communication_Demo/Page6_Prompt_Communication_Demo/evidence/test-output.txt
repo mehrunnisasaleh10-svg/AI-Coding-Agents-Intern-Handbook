@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: validates all seven required request sections
+ok 1 - validates all seven required request sections
+  ---
+  duration_ms: 1.678773
+  type: 'test'
+  ...
+# Subtest: rejects an incomplete request and names missing sections
+ok 2 - rejects an incomplete request and names missing sections
+  ---
+  duration_ms: 2.179359
+  type: 'test'
+  ...
+# Subtest: builds a structured prompt with scope, constraints, and verification
+ok 3 - builds a structured prompt with scope, constraints, and verification
+  ---
+  duration_ms: 0.470269
+  type: 'test'
+  ...
+# Subtest: strong request is more specific than weak and better examples
+ok 4 - strong request is more specific than weak and better examples
+  ---
+  duration_ms: 0.327033
+  type: 'test'
+  ...
+# Subtest: copy-ready prompt templates cover four common tasks
+ok 5 - copy-ready prompt templates cover four common tasks
+  ---
+  duration_ms: 0.194223
+  type: 'test'
+  ...
+# Subtest: request asks for concise rationale and verification, not hidden chain-of-thought
+ok 6 - request asks for concise rationale and verification, not hidden chain-of-thought
+  ---
+  duration_ms: 0.558433
+  type: 'test'
+  ...
+# Subtest: Done returns only Done tasks
+ok 7 - Done returns only Done tasks
+  ---
+  duration_ms: 1.237086
+  type: 'test'
+  ...
+# Subtest: Open returns only Open tasks
+ok 8 - Open returns only Open tasks
+  ---
+  duration_ms: 0.135524
+  type: 'test'
+  ...
+# Subtest: All preserves the existing behavior and returns every task
+ok 9 - All preserves the existing behavior and returns every task
+  ---
+  duration_ms: 0.122405
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 100.767372
